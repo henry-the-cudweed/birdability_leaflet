@@ -1,0 +1,3809 @@
+x = {
+    "layers" : [
+      {
+        "currentVersion" : 11, 
+        "id" : 0, 
+        "name" : "survey", 
+        "type" : "Feature Layer", 
+        "serviceItemId" : "e5eaea58940a455e829d01be721691d6", 
+        "isView" : true, 
+        "isUpdatableView" : true, 
+        "sourceSchemaChangesAllowed" : true, 
+        "displayField" : "", 
+        "description" : "", 
+        "copyrightText" : "", 
+        "defaultVisibility" : true, 
+        "ownershipBasedAccessControlForFeatures" : {
+          "allowOthersToQuery" : true, 
+          "allowOthersToDelete" : false, 
+          "allowOthersToUpdate" : false, 
+          "allowAnonymousToQuery" : true, 
+          "allowAnonymousToUpdate" : false, 
+          "allowAnonymousToDelete" : false
+        }, 
+        "editFieldsInfo" : {
+          "creationDateField" : "CreationDate", 
+          "creatorField" : "Creator", 
+          "editDateField" : "EditDate", 
+          "editorField" : "Editor"
+        }, 
+        "editingInfo" : {
+          "lastEditDate" : 1682801268534, 
+          "schemaLastEditDate" : 1682801268534, 
+          "dataLastEditDate" : 1682801268534
+        }, 
+        "relationships" : [], 
+        "isDataVersioned" : false, 
+        "hasContingentValuesDefinition" : false, 
+        "supportsAppend" : true, 
+        "supportsCalculate" : true, 
+        "supportsASyncCalculate" : true, 
+        "supportsTruncate" : false, 
+        "supportsAttachmentsByUploadId" : true, 
+        "supportsAttachmentsResizing" : true, 
+        "supportsRollbackOnFailureParameter" : true, 
+        "supportsStatistics" : true, 
+        "supportsExceedsLimitStatistics" : true, 
+        "supportsAdvancedQueries" : true, 
+        "supportsValidateSql" : true, 
+        "supportsCoordinatesQuantization" : true, 
+        "supportsLayerOverrides" : true, 
+        "supportsTilesAndBasicQueriesMode" : true, 
+        "supportsFieldDescriptionProperty" : true, 
+        "supportsQuantizationEditMode" : true, 
+        "supportsApplyEditsWithGlobalIds" : true, 
+        "supportsReturningQueryGeometry" : true, 
+        "supportsOBACForAnonymousUsers" : true, 
+        "advancedQueryCapabilities" : {
+          "supportsPagination" : true, 
+          "supportsQueryAttachmentsCountOnly" : true, 
+          "supportsPaginationOnAggregatedQueries" : true, 
+          "supportsQueryRelatedPagination" : true, 
+          "supportsQueryWithDistance" : true, 
+          "supportsReturningQueryExtent" : true, 
+          "supportsStatistics" : true, 
+          "supportsOrderBy" : true, 
+          "supportsDistinct" : true, 
+          "supportsQueryWithResultType" : true, 
+          "supportsSqlExpression" : true, 
+          "supportsAdvancedQueryRelated" : true, 
+          "supportsCountDistinct" : true, 
+          "supportsPercentileStatistics" : true, 
+          "supportsSpatialAggregationStatistics" : true, 
+          "supportedSpatialAggregationStatistics" : [
+            "EnvelopeAggregate", 
+            "CentroidAggregate", 
+            "ConvexHullAggregate"
+          ], 
+          "supportsQueryAttachments" : true, 
+          "supportsLod" : true, 
+          "supportsQueryWithLodSR" : false, 
+          "supportedLodTypes" : [
+            "geohash"
+          ], 
+          "supportsReturningGeometryCentroid" : false, 
+          "supportsQueryWithDatumTransformation" : true, 
+          "supportsHavingClause" : true, 
+          "supportsOutFieldSQLExpression" : true, 
+          "supportsMaxRecordCountFactor" : true, 
+          "supportsTopFeaturesQuery" : true, 
+          "supportsDisjointSpatialRel" : true, 
+          "supportsQueryWithCacheHint" : true, 
+          "supportedOperationsWithCacheHint" : [
+            "query", 
+            "queryTopFilter", 
+            "queryAnalytics", 
+            "queryAttachments", 
+            "queryRelated"
+          ], 
+          "supportsQueryAttachmentsWithReturnUrl" : true, 
+          "supportsQueryAnalytic" : true, 
+          "supportsDefaultSR" : true, 
+          "supportsFullTextSearch" : true
+        }, 
+        "advancedQueryAnalyticCapabilities" : {
+          "supportsLinearRegression" : true, 
+          "supportsAsync" : true, 
+          "supportsPercentileAnalytic" : true
+        }, 
+        "advancedEditingCapabilities" : {
+          "supportedSqlFormatsInCalculate" : [
+            "standard"
+          ], 
+          "supportsAsyncApplyEdits" : true, 
+          "supportsReturnEditResults" : true, 
+          "supportsApplyEditsbyUploadID" : true, 
+          "supportedApplyEditsUploadIDFormats" : "JSON"
+        }, 
+        "infoInEstimates" : [
+          "extent", 
+          "count"
+        ], 
+        "useStandardizedQueries" : true, 
+        "geometryType" : "esriGeometryPoint", 
+        "minScale" : 0, 
+        "maxScale" : 0, 
+        "extent" : {
+          "xmin" : -180, 
+          "ymin" : -90, 
+          "xmax" : 180, 
+          "ymax" : 90, 
+          "spatialReference" : {
+            "wkid" : 4326, 
+            "latestWkid" : 4326
+          }
+        }, 
+        "drawingInfo":{"renderer":{"type":"simple","label":"Survey Point","symbol":{"color":[252,194,1,255],"size":15,"angle":0,"xoffset":0,"yoffset":0,"type":"esriSMS","style":"esriSMSDiamond","outline":{"color":[26,26,26,255],"width":0.2025,"type":"esriSLS","style":"esriSLSSolid"}}},"transparency":0}, 
+        "allowGeometryUpdates" : true, 
+        "hasAttachments" : true, 
+        "propagateVisibleFields" : true, 
+        "viewSourceHasAttachments" : true, 
+        
+        "attachmentProperties" : [
+          {
+            "name" : "id", 
+            "fieldName" : "ATTACHMENTID", 
+            "isEnabled" : true
+          }, 
+          {
+            "name" : "globalId", 
+            "fieldName" : "AttachmentGlobalID", 
+            "isEnabled" : true
+          }, 
+          {
+            "name" : "name", 
+            "fieldName" : "ATT_NAME", 
+            "isEnabled" : true
+          }, 
+          {
+            "name" : "size", 
+            "fieldName" : "DATA_SIZE", 
+            "isEnabled" : true
+          }, 
+          {
+            "name" : "contentType", 
+            "fieldName" : "CONTENT_TYPE", 
+            "isEnabled" : true
+          }, 
+          {
+            "name" : "keywords", 
+            "fieldName" : "Keywords", 
+            "isEnabled" : true
+          }, 
+          {
+            "name" : "exifInfo", 
+            "fieldName" : "ExifInfo", 
+            "isEnabled" : true
+          }
+        ], 
+        "htmlPopupType" : "esriServerHTMLPopupTypeAsHTMLText", 
+        "hasM" : false, 
+        "hasZ" : false, 
+        "objectIdField" : "objectid", 
+        "uniqueIdField" : 
+        {
+          "name" : "objectid", 
+          "isSystemMaintained" : true
+        }, 
+        "globalIdField" : "globalid", 
+        "typeIdField" : "", 
+        "fields" : [
+          {
+            "name" : "objectid", 
+            "type" : "esriFieldTypeOID", 
+            "alias" : "ObjectID", 
+            "sqlType" : "sqlTypeOther", 
+            "nullable" : false, 
+            "editable" : false, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "globalid", 
+            "type" : "esriFieldTypeGlobalID", 
+            "alias" : "GlobalID", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 38, 
+            "nullable" : false, 
+            "editable" : false, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "CreationDate", 
+            "type" : "esriFieldTypeDate", 
+            "alias" : "CreationDate", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 8, 
+            "nullable" : true, 
+            "editable" : false, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "location_name", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "1. What is the name of the birding location?", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "website", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "2. Please provide a link to the area, trail, or sanctuary's website.", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "car_birding", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "4. a) Is this a good car birding site?", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_car_birding", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }, 
+                {
+                  "name" : "No", 
+                  "code" : "No"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "car_birding_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "4. b) Please share more information about car birding opportunities at this location.", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "unit_of_measure", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "5. Units of measurement preferred", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_unit_of_measure", 
+              "codedValues" : [
+                {
+                  "name" : "Miles", 
+                  "code" : "mi"
+                }, 
+                {
+                  "name" : "Kilometers", 
+                  "code" : "km"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "length_of_trail", 
+            "type" : "esriFieldTypeDouble", 
+            "alias" : "6. Length of trail", 
+            "sqlType" : "sqlTypeOther", 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "type_of_trail", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "7. Type of trail", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_type_of_trail", 
+              "codedValues" : [
+                {
+                  "name" : "Loop", 
+                  "code" : "loop"
+                }, 
+                {
+                  "name" : "Out-and-back", 
+                  "code" : "out_and_back"
+                }, 
+                {
+                  "name" : "Lollipop (out-and-back with a loop attached)", 
+                  "code" : "lollipop"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "park_fee", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "8. a) Is there an entrance fee? Is there a parking fee?", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_park_fee", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }, 
+                {
+                  "name" : "No", 
+                  "code" : "No"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "park_fee_cost", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "8. b) How much is the entrance fee?", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "public_transportation", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "9. a) Is there nearby access to public transportation?", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_public_transportation", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }, 
+                {
+                  "name" : "No", 
+                  "code" : "No"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "public_transportation_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "9. b) Please add more information about available transportation.", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "walk_bike", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "10. a) Is there walking or biking access from nearby residential areas?", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_walk_bike", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }, 
+                {
+                  "name" : "No", 
+                  "code" : "No"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "is_there_parking", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "1. a) Is there parking available? ", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_is_there_parking", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }, 
+                {
+                  "name" : "No", 
+                  "code" : "No"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "pull_off", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "There is a pull-off area (for car birding)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_pull_off", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "regular_accessible", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "There are signed, regular-sized accessible parking spaces. (Parking space is a minimum of 96” (2.4m) wide, with no additional side space for a ramp.)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_regular_accessible", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "van_accessible", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "There are van accessible parking spaces. (Parking space is 132” (3.3m) wide, with an additional 60” (1.5m) wide aisle/side space for a ramp.)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_van_accessible", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "curb_cuts", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Curb cuts are present to move from parking lot to trail or sidewalk", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_curb_cuts", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "paved", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Surface is paved", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_paved", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "grael", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Surface is gravel", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_grael", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "potholes", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Surface has many potholes/bumps", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_potholes", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "unmangeable_slope", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Parking is on an unmanageable slope", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_unmangeable_slope", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "parking_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "1. c) Parking comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "are_there_bathrooms", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "3. a) Are there bathrooms?", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_are_there_bathrooms", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }, 
+                {
+                  "name" : "No", 
+                  "code" : "No"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "only_visitors_center", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Bathroom access is only available when the visitor center is open", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_only_visitors_center", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "regular_portable", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Portable restrooms are available but are not wheelchair accessible", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_regular_portable", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "accessible_portable", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Wheelchair accessible portable restrooms are available", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_accessible_portable", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "all_gender", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "There are all gender bathrooms, rather than ‘male’ and ‘female’ choices", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_all_gender", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "door_frames", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Door frames are at least 32\" (81cm) across", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_door_frames", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "threshold", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "The threshold is not on a slant or in the middle of a doorway", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_threshold", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "stall_size", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "The stall size is at minimum 60\" x 60\" (1.5m x 1.5m)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_stall_size", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "toilet", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Top of toilet seat is 17-19\" (43-48cm) from the floor", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_toilet", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "sink", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "The sink is 34” (86cm) maximum above the floor to allow a seated person to reach the faucets and soap", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_sink", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "mirror", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Bottom edge of mirror is no higher than 40” (1m) from the floor", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_mirror", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "hand_dryers", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Hand dryers or towels are a maximum of 35” (89cm) above the floor", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_hand_dryers", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "bathroom_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "3. c) Bathroom comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "are_there_ramps", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "4. a) Are there any ramps?", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_are_there_ramps", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }, 
+                {
+                  "name" : "No", 
+                  "code" : "No"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "handrails", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Handrails are present", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_handrails", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "wide_ramps", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Ramps are at least 36” (91cm) wide", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_wide_ramps", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "perfect_ramp", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Ramp slopes are perfect: for every 1 inch the ramp rises, it extends out 12 inches (no greater than 1:12 ratio, or no steeper than 8.33% gradient)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_perfect_ramp", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "steeper_ramp", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Ramps are steeper than 1:12, but not so steep it feels like an effort to use", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_steeper_ramp", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "very_steep_ramp", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Ramps are very steep", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_very_steep_ramp", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "flat_landings", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Flat landings between slopes or when ramps change direction are at least 60”x60” (1.5m x 1.5m)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_flat_landings", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "ramp_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "4. c) Ramp comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "concrete", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Concrete", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_concrete", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "asphalt", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Asphalt", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_asphalt", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "wooden", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Wooden boardwalk", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_wooden", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "packed_stone", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Well-packed crushed stone", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_packed_stone", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "hard_soil", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Hard-packed soil", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_hard_soil", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "loose_dirt", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Loose dirt", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_loose_dirt", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "loose_stone", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Loose crushed stone or gravel", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_loose_stone", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "thick_grass", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Thick grass", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_thick_grass", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "mulch", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Wood mulch/tanbark", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_mulch", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "sand", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Sand", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_sand", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "muddy", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Muddy sections", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_muddy", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "roots_rocks", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Protruding roots and rocks", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_roots_rocks", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "ruts_potholes", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Ruts and potholes", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_ruts_potholes", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "trail_surface_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "5. b) Trail surface comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "extra_wide_trail", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Trail is at least 60” (1.5m) wide to allow two mobility devices to pass", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_extra_wide_trail", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "wide_trail", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Trail is at least 36” (91cm) wide ", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_wide_trail", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "narrow_trail", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Trail is relatively narrow (it would be somewhat difficult to pass others if using a mobility device)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_narrow_trail", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "no_pullouts", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "There are no pull-outs (passing spaces) along the trail", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_no_pullouts", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "pullouts_1_8", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Pull-outs occur at least every 1/8 mile (200m) feet", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_pullouts_1_8", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "pullouts", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Pull-outs are present, but less frequently", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_pullouts", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "trail_width_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "6. b) Trail width and pull-outs comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "flat", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Trail is completely flat", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_flat", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "steep_trail", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Trail slopes are no steeper than a ratio of 1:20 (5% gradient)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_steep_trail", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "steeper_trail", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Trail slopes are relatively flat, but steeper than 1:20 (5% gradient)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_steeper_trail", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "very_steep_trail", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Trail slopes are very steep", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_very_steep_trail", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "trail_slope_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "7. b) Trail slope comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "steps", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "8. a) Are any steps present?", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_steps", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }, 
+                {
+                  "name" : "No", 
+                  "code" : "No"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "steps_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "8. b) Steps comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "are_there_benches", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "9. a) Are there any benches?", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_are_there_benches", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }, 
+                {
+                  "name" : "No", 
+                  "code" : "No"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "benches_1_8", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Benches occur roughly every 1/8 mile (200m) feet", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_benches_1_8", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "benches_less_frequent", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Benches are present, but less frequently", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_benches_less_frequent", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "armrest", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Benches have at least one armrest", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_armrest", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "bench_trail", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Benches are connected to the trail by a paved surface", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_bench_trail", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "bench_frequency_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "9. c) Bench comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "are_there_gates", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "10. a) Are gates, bollards, or large obstacles present?", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_are_there_gates", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }, 
+                {
+                  "name" : "No", 
+                  "code" : "No"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "space_between_bollards", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Space between bollards/large obstacles, or between bollard and the edge of the trail, is at least 36”", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_space_between_bollards", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "wide_gates", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Gates are at least 36” (91cm) wide", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_wide_gates", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "narrower_gates", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Gates are narrower than 36” (91cm) wide", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_narrower_gates", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "swing_gates", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Swing or ‘kissing’ gate is present: gate opens towards or away from you, and you must hold it open to pass", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_swing_gates", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "road_closure_gates", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Road closure gate is present (metal bar designed to prevent car access), with no alternative route around it", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_road_closure_gates", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "road_closure_gates_no_path", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Road closure gate is present, but a path at least 36” (91cm) wide around the side allows access", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_road_closure_gates_no_path", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "gates_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "10. c) Gates, bollards, and obstacles comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "are_there_railings", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "11. a) Are there railings or safety barriers?", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_are_there_railings", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }, 
+                {
+                  "name" : "No", 
+                  "code" : "No"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "small_lip", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Small lip (approximately 1-2” or 2.5-5cm high) on edge of boardwalk is present, to keep visitors with mobility devices from falling off the edge", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_small_lip", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "accessible_top_railing", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Top railings are not thick/deep, and are placed to optimize, not obstruct, a seated person's line of sight (which is, on average, 35-45” or 88-114cm from the ground)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_accessible_top_railing", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "inaccessible_top_railing", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Top railing is thick and hard to see beyond while seated", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_inaccessible_top_railing", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "railing_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "11. c) Railing comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "audio", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Audio recordings of interpretive sign content", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_audio", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "tactile_signs", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Tactile components of signs", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_tactile_signs", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "braille", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Braille on signs", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_braille", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "tactile_markers", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Tactile markers on the trail's surface (helpful for long cane users)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_tactile_markers", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "additional_resources", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Additional resources available to loan (eg. large print or braille information booklets, audio guide)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_additional_resources", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "features_for_visitors_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "12. c) Features for visitors who are blind or have low vision comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "completely_shaded", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Trail is completely shaded", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_completely_shaded", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "somewhat_shaded", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Trail is somewhat shaded", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_somewhat_shaded", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "not_shaded", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Trail is not shaded at all", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_not_shaded", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "parts_shaded", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Some sections of the trail are shaded, some sections are not", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_parts_shaded", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "trail_shade_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "13. b) Shade comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "very_busy", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Very busy; difficult to find a parking space or to pass by other trail users", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_very_busy", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "somewhat_busy", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Somewhat busy; still easy to navigate the trail with the other visitors", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_somewhat_busy", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "not_busy", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Not busy", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_not_busy", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "trail_use_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "14. b) Trail use and popularity comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "mountain_bikes", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Mountain bikes", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_mountain_bikes", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "cyclists", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Cyclists (especially on bike paths)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_cyclists", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "horses", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Horses", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_horses", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "motor_vehicles", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Motor vehicles, including golf carts", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_motor_vehicles", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "skiers", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "In-line skiers", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_skiers", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "other_user_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "15. b) Other user comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "visitors_center", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Visitors center or nature center", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_visitors_center", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "staff", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Staff or volunteers to assist with questions", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_staff", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "interpretive_programs", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Interpretive programs ", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_interpretive_programs", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "tram", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Accessible tram or motorized tour ", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_tram", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "meals", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Meals are available to purchase ", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_meals", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "water_fountains", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Water fountains are available outside buildings", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_water_fountains", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "accessible_water_fountains", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Accessible water fountains (no higher than 36” or 91cm from the floor) are available outside buildings", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_accessible_water_fountains", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "gated_areas", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Gated areas (eg drive up bird blinds) accessible to people with disabilities if arranged ahead of time", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_gated_areas", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "additional_services_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "2. b) Additional services comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "are_there_bird_blinds", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "16. a) Are bird blinds or bird hides present?", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_are_there_bird_blinds", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }, 
+                {
+                  "name" : "No", 
+                  "code" : "No"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "no_doorway", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "There is no door or entryway", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_no_doorway", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "doorway_at_top", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Doorway is at the top of a ramp or on a cross slope", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_doorway_at_top", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "door_can_open", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Door can be opened and held open easily with one hand while passing through", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_door_can_open", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "no_lip", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "There is no lip at the threshold of the doorway", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_no_lip", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "wide_door", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Doorway is at least 32” (81cm) wide", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_wide_door", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "enough_space", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "There is enough space inside for wheelchairs to maneuver easily", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_enough_space", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "viewing_windows", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Viewing windows are low enough for a seated person to see through (bottom edge is 30-40” or 76cm-1m from the floor)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_viewing_windows", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "shallow_shelves", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Shelves or ledges in front of windows are no deeper than 6” (15cm), which would prevent wheelchair users from getting close enough to see birds near the blind on the ground", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_shallow_shelves", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "interior_benches", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Interior benches are movable", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_interior_benches", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "roof", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Roof or other structure provides shade for people in the bird blind", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_roof", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "bird_blind_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "16. c) Bird blind comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "construction", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Intermittent nearby construction noise", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_construction", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "industrial", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Ongoing industrial noise", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_industrial", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "traffic", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Nearby traffic noise", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_traffic", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "airport", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Near an airport or close to a heavily trafficked flight path", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_airport", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "boats", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Loud boats nearby", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_boats", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "dirt_bikes", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Dirt bikes used nearby", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_dirt_bikes", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "large_groups", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Large groups of people often use this location for social gatherings", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_large_groups", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "noise_level_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "18. b) Nearby noise comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "plowed", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Trail or ramps are plowed frequently in winter (if relevant)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_plowed", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "leaves_removed", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Leaves are removed frequently from the trail in fall/winter (if relevant)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_leaves_removed", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "pruned_vegetation", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Vegetation next to the trail is pruned so it does not encroach over the trail", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_pruned_vegetation", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "damage", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "There are significant cracks, potholes, or loose, damaged or uneven boards in the trail’s surface", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_damage", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "maintenance_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "18. b) Maintenance comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "well_used", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Location is well used; plenty of other people were around and it didn't feel deserted", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_well_used", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "not_well_used", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Location is not well-used; you/your group were the only users, or one of very few other users", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_not_well_used", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "borders_private", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Location borders a private property with 'keep out' or 'no trespassing' signs visible at the parking area or along the trail", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_borders_private", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "well_lit_parking", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "The parking area is well lit at night", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_well_lit_parking", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "well_lit_trail", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "The trail is well lit at night", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_well_lit_trail", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "dogs_off_leash", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Dogs are often off leash", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_dogs_off_leash", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "bears", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Bears or mountain lions are frequently reported at this location", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_bears", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "police", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Noticeable presence of police, Border Patrol or other authorities", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_police", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "party_spot", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Site is used as an isolated party spot, or for large, loud gatherings", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_party_spot", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "hunting", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Site is used for hunting, for at least some part of the year", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_hunting", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "hate_symbols", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Presence of hate symbols, including racist or homophobic graffiti, Confederate flag", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_hate_symbols", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "drugs", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Evidence of recreational drug or alcohol use, eg. syringes, drug paraphernalia", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_drugs", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "safety_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "19. b) Safety comments", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "final_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "1. Please provide any additional information that may be helpful to a visitor with an accessibility challenge that was not already covered", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "rating", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "2. Please rate this location's overall accessibility", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_rating", 
+              "codedValues" : [
+                {
+                  "name" : "1", 
+                  "code" : "1"
+                }, 
+                {
+                  "name" : "2", 
+                  "code" : "2"
+                }, 
+                {
+                  "name" : "3", 
+                  "code" : "3"
+                }, 
+                {
+                  "name" : "4", 
+                  "code" : "4"
+                }, 
+                {
+                  "name" : "5", 
+                  "code" : "5"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "photos_permissions", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "3. b) Photo permissions", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_photos_permissions", 
+              "codedValues" : [
+                {
+                  "name" : "I certify I own the right to share these photos publicly, and I grant permission to Birdability and National Audubon to use these photos.", 
+                  "code" : "i_certify"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "alternative_text", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "3. c) Alternative text for photos", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "guide_ropes", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Guide ropes along the side of the trail for self-guiding", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_guide_ropes", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "mown_frequently", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "All grassy trail surfaces are mown frequently (if relevant)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_mown_frequently", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "tree_branches", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Tree branches do not encroach over the surface of the trail below the height of 7’ (2.1m)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_tree_branches", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "ticks", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Ticks or chiggers are a concern", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_ticks", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "event_code", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Event code", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "field_80_0", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Adaptive equipment is available for loan (eg. beach wheelchairs)", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_field_80_0", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "walking_biking_comments", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "10. b) Please add more information about walking or biking access.", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 1000, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "blind_low_vision_features", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "12. a) Are there features for visitors who are blind or have low vision?", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 255, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "cvd_blind_low_vision_features", 
+              "codedValues" : [
+                {
+                  "name" : "Yes", 
+                  "code" : "Yes"
+                }, 
+                {
+                  "name" : "No", 
+                  "code" : "No"
+                }
+              ]
+            }, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "review", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Review", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 20, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : 
+            {
+              "type" : "codedValue", 
+              "name" : "survey_review_06d537d2-bf6f-40ea-894c-c141477e2fc2", 
+              "codedValues" : [
+                {
+                  "name" : "Accept", 
+                  "code" : "Accept"
+                }, 
+                {
+                  "name" : "Reject", 
+                  "code" : "Reject"
+                }
+              ]
+            }, 
+            "defaultValue" : "Accept"
+          }, 
+          {
+            "name" : "state", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "State", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 256, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "country", 
+            "type" : "esriFieldTypeString", 
+            "alias" : "Country", 
+            "sqlType" : "sqlTypeOther", 
+            "length" : 256, 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "units_mi", 
+            "type" : "esriFieldTypeDouble", 
+            "alias" : "Units Miles", 
+            "sqlType" : "sqlTypeOther", 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }, 
+          {
+            "name" : "units_km", 
+            "type" : "esriFieldTypeDouble", 
+            "alias" : "Units Kilometers", 
+            "sqlType" : "sqlTypeOther", 
+            "nullable" : true, 
+            "editable" : true, 
+            "domain" : null, 
+            "defaultValue" : null
+          }
+        ], 
+        "indexes" : [
+          {
+            "name" : "GlobalIDIndex", 
+            "fields" : "globalid", 
+            "isAscending" : false, 
+            "isUnique" : true, 
+            "description" : "GlobalID index"
+          }, 
+          {
+            "name" : "user_5389.survey123_7b5a83ebc9044268a03b84ff9fe12c71_SURVEY_Shape_sidx", 
+            "fields" : "Shape", 
+            "isAscending" : false, 
+            "isUnique" : false, 
+            "description" : "Shape Index"
+          }, 
+          {
+            "name" : "PK__survey12__5242E632BA9386D0", 
+            "fields" : "objectid", 
+            "isAscending" : true, 
+            "isUnique" : true, 
+            "description" : "clustered, unique, primary key"
+          }, 
+          {
+            "name" : "CreationDateIndex", 
+            "fields" : "CreationDate", 
+            "isAscending" : true, 
+            "isUnique" : false, 
+            "description" : "CreationDate Field index"
+          }, 
+          {
+            "name" : "location_name_Index", 
+            "fields" : "location_name", 
+            "isAscending" : true, 
+            "isUnique" : false, 
+            "description" : "location_name_Index"
+          }, 
+          {
+            "name" : "review_Index", 
+            "fields" : "review", 
+            "isAscending" : true, 
+            "isUnique" : false, 
+            "description" : "review_Index"
+          }, 
+          {
+            "name" : "dogs_off_leash_Index", 
+            "fields" : "dogs_off_leash", 
+            "isAscending" : true, 
+            "isUnique" : false, 
+            "description" : "dogs_off_leash_Index"
+          }, 
+          {
+            "name" : "bears_Index", 
+            "fields" : "bears", 
+            "isAscending" : true, 
+            "isUnique" : false, 
+            "description" : "bears_Index"
+          }, 
+          {
+            "name" : "police_Index", 
+            "fields" : "police", 
+            "isAscending" : true, 
+            "isUnique" : false, 
+            "description" : "police_Index"
+          }, 
+          {
+            "name" : "party_spot_Index", 
+            "fields" : "party_spot", 
+            "isAscending" : true, 
+            "isUnique" : false, 
+            "description" : "party_spot_Index"
+          }, 
+          {
+            "name" : "hunting_Index", 
+            "fields" : "hunting", 
+            "isAscending" : true, 
+            "isUnique" : false, 
+            "description" : "hunting_Index"
+          }, 
+          {
+            "name" : "hate_symbols_Index", 
+            "fields" : "hate_symbols", 
+            "isAscending" : true, 
+            "isUnique" : false, 
+            "description" : "hate_symbols_Index"
+          }, 
+          {
+            "name" : "drugs_Index", 
+            "fields" : "drugs", 
+            "isAscending" : true, 
+            "isUnique" : false, 
+            "description" : "drugs_Index"
+          }, 
+          {
+            "name" : "ticks_Index", 
+            "fields" : "ticks", 
+            "isAscending" : true, 
+            "isUnique" : false, 
+            "description" : "ticks_Index"
+          }, 
+          {
+            "name" : "not_well_used_Index", 
+            "fields" : "not_well_used", 
+            "isAscending" : true, 
+            "isUnique" : false, 
+            "description" : "not_well_used_Index"
+          }, 
+          {
+            "name" : "borders_private_Index", 
+            "fields" : "borders_private", 
+            "isAscending" : true, 
+            "isUnique" : false, 
+            "description" : "borders_private_Index"
+          }
+        ], 
+        "dateFieldsTimeReference" : {
+          "timeZone" : "UTC", 
+          "respectsDaylightSaving" : false
+        }, 
+        "preferredTimeReference" : null, 
+        "types" : [], 
+        "templates" : [
+          {
+            "name" : "New Feature", 
+            "description" : "", 
+            "drawingTool" : "esriFeatureEditToolPoint", 
+            "prototype" : {
+              "attributes" : {
+              }
+            }
+          }
+        ], 
+        "supportedQueryFormats" : "JSON, geoJSON, PBF", 
+        "supportedAppendFormats" : "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,imageCollection", 
+        "supportedExportFormats" : "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,excel", 
+        "supportedSpatialRelationships" : [
+          "esriSpatialRelIntersects", 
+          "esriSpatialRelContains", 
+          "esriSpatialRelCrosses", 
+          "esriSpatialRelEnvelopeIntersects", 
+          "esriSpatialRelIndexIntersects", 
+          "esriSpatialRelOverlaps", 
+          "esriSpatialRelTouches", 
+          "esriSpatialRelWithin", 
+          "esriSpatialRelDisjoint", 
+          "esriSpatialRelRelation"
+        ], 
+        "supportedContingentValuesFormats" : "JSON, PBF", 
+        "supportedSyncDataOptions" : 4, 
+        "hasStaticData" : true, 
+        "maxRecordCount" : 1000, 
+        "standardMaxRecordCount" : 32000, 
+        "standardMaxRecordCountNoGeometry" : 32000, 
+        "tileMaxRecordCount" : 8000, 
+        "maxRecordCountFactor" : 1, 
+        "capabilities" : "Query,Extract"
+      }
+    ], 
+    "tables" : []
+  }
+  
