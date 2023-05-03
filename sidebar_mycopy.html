@@ -18,6 +18,42 @@ font-family: "Arial", Arial, serif;
 padding: 
 }
 
+.container {
+    overflow: hidden;
+  }
+  
+  .filterDiv {
+    
+    
+    margin: 4px;
+    display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add a dark background to the active button */
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
 
 </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
@@ -41,13 +77,20 @@ padding:
    <div id="myBtnContainer">
     <button class="btn active" onclick="filterSelection('all')"> Show all</button>
     <button class="btn" onclick="filterSelection('Overview')"> Overview</button>
-    <button class="btn" onclick="filterSelection('Trail_Info')"> Trail Info</button>
+    <!--<button class="btn" onclick="filterSelection('Trail_Info')"> Trail Info</button>-->
     <button class="btn" onclick="filterSelection('Transportation')"> Transportation</button>
     <button class="btn" onclick="filterSelection('Bathrooms')"> Bathrooms</button>
     <button class="btn" onclick="filterSelection('RampsandHandrails')"> Ramps and Handrails</button>
-    <button class="btn" onclick="filterSelection('VisionAccessibility')"> Vision Accessibility</button>
-    <button class="btn" onclick="filterSelection('colors')"> Colors</button>
-    <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+   <!-- <button class="btn" onclick="filterSelection('VisionAccessibility')"> Vision Accessibility</button>-->
+    <button class="btn" onclick="filterSelection('CarBirding')"> Car Birding</button>
+   <!-- <button class="btn" onclick="filterSelection('Wheelchair')"> Wheelchair Accessibility</button>-->
+    <button class="btn" onclick="filterSelection('Ground')"> Trail Surface Type</button>
+    <!--<button class="btn" onclick="filterSelection('Width')"> Trail Width Type</button>
+    <button class="btn" onclick="filterSelection('Slope')"> Trail Slope</button>-->
+  <!--  <button class="btn" onclick="filterSelection('Width')"> Trail Width Type</button>
+    <button class="btn" onclick="filterSelection('Width')"> Trail Width Type</button>-->
+
+
 
   </div>
 
@@ -56,78 +99,102 @@ padding:
     <div class="sidebar">
       -- Click a point on map to find out more--
       <br>
-      <b>objectid</b><div class=objectid></div><br>
+<!--   <b>objectid</b><div class=objectid></div><br>
       <b>globalid</b><div class=globalid></div><br>
       <b>CreationDate</b><div class=CreationDate></div><br>
-      <b>location_name</b><div class=location_name></div><br>
-      <b>website</b><div class=website></div><br>
-      <b>car_birding</b><div class=car_birding></div><br>
-      <b>car_birding_comments</b><div class=car_birding_comments></div><br>
-      <b>unit_of_measure</b><div class=unit_of_measure></div><br>
-      <b>length_of_trail</b><div class=length_of_trail></div><br>
-      <b>type_of_trail</b><div class=type_of_trail></div><br>
-      <b>park_fee</b><div class=park_fee></div><br>
-      <b>park_fee_cost</b><div class=park_fee_cost></div><br>
-      <b>public_transportation</b><div class=public_transportation></div><br>
-      <b>public_transportation_comments</b><div class=public_transportation_comments></div><br>
-      <b>walk_bike</b><div class=walk_bike></div><br>
-      <b>is_there_parking</b><div class=is_there_parking></div><br>
-      <b>pull_off</b><div class=pull_off></div><br>
-      <b>regular_accessible</b><div class=regular_accessible></div><br>
-      <b>van_accessible</b><div class=van_accessible></div><br>
-      <b>curb_cuts</b><div class=curb_cuts></div><br>
-      <b>paved</b><div class=paved></div><br>
-      <b>grael</b><div class=grael></div><br>
-      <b>potholes</b><div class=potholes></div><br>
-      <b>unmangeable_slope</b><div class=unmangeable_slope></div><br>
-      <b>parking_comments</b><div class=parking_comments></div><br>
-      <b>are_there_bathrooms</b><div class=are_there_bathrooms></div><br>
-      <b>only_visitors_center</b><div class=only_visitors_center></div><br>
-      <b>regular_portable</b><div class=regular_portable></div><br>
-      <b>accessible_portable</b><div class=accessible_portable></div><br>
-      <b>all_gender</b><div class=all_gender></div><br>
-      <b>door_frames</b><div class=door_frames></div><br>
-      <b>threshold</b><div class=threshold></div><br>
-      <b>stall_size</b><div class=stall_size></div><br>
-      <b>toilet</b><div class=toilet></div><br>
-      <b>sink</b><div class=sink></div><br>
-      <b>mirror</b><div class=mirror></div><br>
-      <b>hand_dryers</b><div class=hand_dryers></div><br>
-      <b>bathroom_comments</b><div class=bathroom_comments></div><br>
-      <b>are_there_ramps</b><div class=are_there_ramps></div><br>
-      <b>handrails</b><div class=handrails></div><br>
-      <b>wide_ramps</b><div class=wide_ramps></div><br>
-      <b>perfect_ramp</b><div class=perfect_ramp></div><br>
-      <b>steeper_ramp</b><div class=steeper_ramp></div><br>
-      <b>very_steep_ramp</b><div class=very_steep_ramp></div><br>
-      <b>flat_landings</b><div class=flat_landings></div><br>
-      <b>ramp_comments</b><div class=ramp_comments></div><br>
-      <b>concrete</b><div class=concrete></div><br>
-      <b>asphalt</b><div class=asphalt></div><br>
-      <b>wooden</b><div class=wooden></div><br>
-      <b>packed_stone</b><div class=packed_stone></div><br>
-      <b>hard_soil</b><div class=hard_soil></div><br>
-      <b>loose_dirt</b><div class=loose_dirt></div><br>
-      <b>loose_stone</b><div class=loose_stone></div><br>
-      <b>thick_grass</b><div class=thick_grass></div><br>
-      <b>mulch</b><div class=mulch></div><br>
-      <b>sand</b><div class=sand></div><br>
-      <b>muddy</b><div class=muddy></div><br>
-      <b>roots_rocks</b><div class=roots_rocks></div><br>
-      <b>ruts_potholes</b><div class=ruts_potholes></div><br>
-      <b>trail_surface_comments</b><div class=trail_surface_comments></div><br>
-      <b>extra_wide_trail</b><div class=extra_wide_trail></div><br>
-      <b>wide_trail</b><div class=wide_trail></div><br>
-      <b>narrow_trail</b><div class=narrow_trail></div><br>
-      <b>no_pullouts</b><div class=no_pullouts></div><br>
-      <b>pullouts_1_8</b><div class=pullouts_1_8></div><br>
-      <b>pullouts</b><div class=pullouts></div><br>
-      <b>trail_width_comments</b><div class=trail_width_comments></div><br>
-      <b>flat</b><div class=flat></div><br>
-      <b>steep_trail</b><div class=steep_trail></div><br>
-      <b>steeper_trail</b><div class=steeper_trail></div><br>
-      <b>very_steep_trail</b><div class=very_steep_trail></div><br>
-      <b>trail_slope_comments</b><div class=trail_slope_comments></div><br>
+-->   
+      <div class="filterDiv Overview" >
+        <b>location_name</b><div class=location_name></div><br>
+        <b>website</b><div class=website class="Overview"></div><br>
+        <span><b>Trail Length</b><div class=length_of_trail class="Overview"></div><div class=unit_of_measure class="Overview"></div><br></span>
+        <b>type_of_trail</b><div class=type_of_trail class="Overview"></div><br>
+        <b>park_fee</b><div class=park_fee class="Overview"></div><br>
+        <b>park_fee_cost</b><div class=park_fee_cost class="Overview"></div><br>
+      </div>
+      
+      <div class="filterDiv CarBirding">
+        <b>car_birding</b><div class=car_birding class="CarBirding"></div><br>
+        <b>car_birding_comments</b><div class=car_birding_comments class="CarBirding"></div><br>
+      </div>
+      
+    <div class="filterDiv Transportation">
+        <b>public_transportation</b><div class=public_transportation class="Transportation"></div><br>
+        <b>public_transportation_comments</b><div class=public_transportation_comments class="Transportation"></div><br>
+        <b>walk_bike</b><div class=walk_bike class="Transportation"></div><br>
+        <b>is_there_parking</b><div class=is_there_parking class="Transportation"></div><br>
+        <b>pull_off</b><div class=pull_off class="Transportation"></div><br>
+        <b>regular_accessible</b><div class=regular_accessible class="Transportation"></div><br>
+        <b>van_accessible</b><div class=van_accessible class="Transportation"></div><br>
+        <b>parking_comments</b><div class=parking_comments class="Transportation"></div><br>
+
+    </div>
+    
+    <div class="filterDiv Ground">
+    <!--this may be referencing road to bathroom? check metadata?-->
+        <b>paved</b><div class=paved class="Ground"></div><br>
+        <b>gravel</b><div class=grael class="Ground"></div><br>
+        <b>potholes</b><div class=potholes class="Ground" ></div><br>
+        <b>unmangeable_slope</b><div class=unmangeable_slope class="Ground">
+            <b>concrete</b><div class=concrete class="Ground"></div><br>
+            <b>asphalt</b><div class=asphalt class="Ground"></div><br>
+            <b>wooden</b><div class=wooden class="Ground"></div><br>
+            <b>packed_stone</b><div class=packed_stone class="Ground"></div><br>
+            <b>hard_soil</b><div class=hard_soil class="Ground"></div><br>
+            <b>loose_dirt</b><div class=loose_dirt class="Ground"></div><br>
+            <b>loose_stone</b><div class=loose_stone class="Ground"></div><br>
+            <b>thick_grass</b><div class=thick_grass class="Ground"></div><br>
+            <b>mulch</b><div class=mulch class="Ground"></div><br>
+            <b>sand</b><div class=sand class="Ground"></div><br>
+            <b>muddy</b><div class=muddy class="Ground"></div><br>
+            <b>roots_rocks</b><div class=roots_rocks class="Ground"></div><br>
+            <b>ruts_potholes</b><div class=ruts_potholes class="Ground"></div><br>
+        </div><br>
+    </div>
+
+    <div class="filterDiv Bathrooms">
+        <b>are_there_bathrooms</b><div class=are_there_bathrooms class="Bathrooms"></div><br>
+        <b>only_visitors_center</b><div class=only_visitors_center class="Overview" class="Bathrooms" ></div><br>
+        <b>regular_portable</b><div class=regular_portable  class="Bathrooms" ></div><br>
+        <b>accessible_portable</b><div class=accessible_portable  class="Bathrooms" ></div><br>
+        <b>all_gender</b><div class=all_gender  class="Bathrooms" ></div><br>
+        <b>door_frames</b><div class=door_frames  class="Bathrooms" ></div><br>
+        <b>threshold</b><div class=threshold  class="Bathrooms" ></div><br>
+        <b>stall_size</b><div class=stall_size  class="Bathrooms" ></div><br>
+        <b>toilet</b><div class=toilet  class="Bathrooms" ></div><br>
+        <b>sink</b><div class=sink  class="Bathrooms" ></div><br>
+        <b>mirror</b><div class=mirror  class="Bathrooms" ></div><br>
+        <b>hand_dryers</b><div class=hand_dryers  class="Bathrooms" ></div><br>
+        <b>bathroom_comments</b><div class=bathroom_comments  class="Bathrooms" ></div><br>
+    </div>
+  
+    <div class="filterDiv RampsandHandrails">
+        <b>are_there_ramps</b><div class=are_there_ramps class="RampsandHandrails"></div><br>
+        <b>handrails</b><div class=handrails class="RampsandHandrails"></div><br>
+        <b>wide_ramps</b><div class=wide_ramps class="RampsandHandrails"></div><br>
+        <b>perfect_ramp</b><div class=perfect_ramp class="RampsandHandrails"> </div><br>
+        <b>steeper_ramp</b><div class=steeper_ramp  class="RampsandHandrails"></div><br>
+        <b>very_steep_ramp</b><div class=very_steep_ramp  class="RampsandHandrails"></div><br>
+        <b>flat_landings</b><div class=flat_landings  class="RampsandHandrails"></div><br>
+        <b>ramp_comments</b><div class=ramp_comments  class="RampsandHandrails"></div><br>
+    </div>
+  <!--      <b>curb_cuts</b><div class=curb_cuts class="Wheelchair"></div><br>
+    
+
+   
+
+      <b>trail_surface_comments</b><div class=trail_surface_comments class="Ground"></div><br>
+      <b>extra_wide_trail</b><div class=extra_wide_trail class="Width"></div><br>
+      <b>wide_trail</b><div class=wide_trail class="Width"></div><br>
+      <b>narrow_trail</b><div class=narrow_trail class="Width"></div><br>
+      <b>no_pullouts</b><div class=no_pullouts class="Width"></div><br>
+      <b>pullouts_1_8</b><div class=pullouts_1_8 class="Width"></div><br>
+      <b>pullouts</b><div class=pullouts class="Width"></div><br>
+      <b>trail_width_comments</b><div class=trail_width_comments class="Width"></div><br>
+      <b>flat</b><div class=flat class="slope"></div><br>
+      <b>steep_trail</b><div class=steep_trail class="slope"></div><br>
+      <b>steeper_trail</b><div class=steeper_trail  class="slope"></div><br>
+      <b>very_steep_trail</b><div class=very_steep_trail  class="slope"></div><br>
+      <b>trail_slope_comments</b><div class=trail_slope_comments  class="slope"></div><br>
       <b>steps</b><div class=steps></div><br>
       <b>steps_comments</b><div class=steps_comments></div><br>
       <b>are_there_benches</b><div class=are_there_benches></div><br>
@@ -234,6 +301,7 @@ padding:
       <b>country</b><div class=country></div><br>
       <b>units_mi</b><div class=units_mi></div><br>
       <b>units_km</b><div class=units_km></div><br>
+ -->
     </div>
 
     
