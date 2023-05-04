@@ -77,19 +77,28 @@ padding:
    <div id="myBtnContainer">
     <button class="btn active" onclick="filterSelection('all')"> Show all</button>
     <button class="btn" onclick="filterSelection('Overview')"> Overview</button>
+    <button class="btn" onclick="filterSelection('CarBirding')"> Car Birding</button>
+
     <!--<button class="btn" onclick="filterSelection('Trail_Info')"> Trail Info</button>-->
     <button class="btn" onclick="filterSelection('Transportation')"> Transportation</button>
     <button class="btn" onclick="filterSelection('Bathrooms')"> Bathrooms</button>
     <button class="btn" onclick="filterSelection('RampsandHandrails')"> Ramps and Handrails</button>
-   <!-- <button class="btn" onclick="filterSelection('VisionAccessibility')"> Vision Accessibility</button>-->
-    <button class="btn" onclick="filterSelection('CarBirding')"> Car Birding</button>
-   <!-- <button class="btn" onclick="filterSelection('Wheelchair')"> Wheelchair Accessibility</button>-->
+  <button class="btn" onclick="filterSelection('VisionAccessibility')"> Vision Accessibility</button>
+   <!--<button class="btn" onclick="filterSelection('Wheelchair')"> Wheelchair Accessibility</button>-->
     <button class="btn" onclick="filterSelection('Ground')"> Trail Surface Type</button>
-    <!--<button class="btn" onclick="filterSelection('Width')"> Trail Width Type</button>
-    <button class="btn" onclick="filterSelection('Slope')"> Trail Slope</button>-->
-  <!--  <button class="btn" onclick="filterSelection('Width')"> Trail Width Type</button>
-    <button class="btn" onclick="filterSelection('Width')"> Trail Width Type</button>-->
-
+    <button class="btn" onclick="filterSelection('Width')"> Trail Width Type</button>
+    <button class="btn" onclick="filterSelection('Slope')"> Trail Slope</button>
+   <button class="btn" onclick="filterSelection('Width')"> Trail Width </button>
+    <button class="btn" onclick="filterSelection('Bench')"> Benches</button>
+    <button class="btn" onclick="filterSelection('trailObstacles')"> Trail Obstacles</button>
+    <button class="btn" onclick="filterSelection('Steps')"> Steps</button>
+    <button class="btn" onclick="filterSelection('Safety')"> Safety</button>
+    <button class="btn" onclick="filterSelection('boardwalk-railings')"> Boardwalk Railings</button>
+    <button class="btn" onclick="filterSelection('shade')"> Shade</button>
+    <button class="btn" onclick="filterSelection('trailUseDensity')"> Trail Popularity and Types of Use</button>
+    <button class="btn" onclick="filterSelection('resources')"> Amenities and Resources</button>
+    <button class="btn" onclick="filterSelection('birdblind')"> Bird Blind</button>
+    <button class="btn" onclick="filterSelection('vegetationMaintenance')"> Vegetation Maintenace</button>
 
 
   </div>
@@ -99,212 +108,355 @@ padding:
     <div class="sidebar">
       -- Click a point on map to find out more--
       <br>
-<!--   <b>objectid</b><div class=objectid></div><br>
-      <b>globalid</b><div class=globalid></div><br>
-      <b>CreationDate</b><div class=CreationDate></div><br>
--->   
-        <b>location_name</b><div class=location_name></div><br>
+      <b>Birding Location Name</b><div class=location_name></div><br>
 
-      <div class="filterDiv Overview" >
-        <b>website</b><div class=website class="Overview"></div><br>
+        <div class="filterDiv Overview" >
+        
+        <b>Website</b><div class=website></div><br>
+<!--      <div class="url"></div>-->  
+
         <span><b>Trail Length</b><div class=length_of_trail class="Overview"></div><div class=unit_of_measure class="Overview"></div><br></span>
-        <b>type_of_trail</b><div class=type_of_trail class="Overview"></div><br>
+        <b>7. Type of trail</b><div class=type_of_trail></div><br>
         <b>park_fee</b><div class=park_fee class="Overview"></div><br>
         <b>park_fee_cost</b><div class=park_fee_cost class="Overview"></div><br>
-      </div>
-      
-      <div class="filterDiv CarBirding">
+        <b>Review</b><div class=review></div><br>
+        <b>State</b><div class=state></div><br>
+        <b>Country</b><div class=country></div><br>
+              </div>
+
+        <div class="filterDiv CarBirding">
         <b>car_birding</b><div class=car_birding class="CarBirding"></div><br>
+        <b>Is there a pull-off area for car birding?</b><div class=pull_off class="Transportation"></div><br>
+
         <b>car_birding_comments</b><div class=car_birding_comments class="CarBirding"></div><br>
-      </div>
-      
-    <div class="filterDiv Transportation">
-        <b>public_transportation</b><div class=public_transportation class="Transportation"></div><br>
+                </div>
+
+        <div class="filterDiv Transportation">
+        <b>9. a) Is there nearby access to public transportation?</b><div class=public_transportation></div><br>
         <b>public_transportation_comments</b><div class=public_transportation_comments class="Transportation"></div><br>
-        <b>walk_bike</b><div class=walk_bike class="Transportation"></div><br>
+        <b>10. a) Is there walking or biking access from nearby residential areas?</b><div class=walk_bike></div><br>
         <b>is_there_parking</b><div class=is_there_parking class="Transportation"></div><br>
-        <b>pull_off</b><div class=pull_off class="Transportation"></div><br>
-        <b>regular_accessible</b><div class=regular_accessible class="Transportation"></div><br>
-        <b>van_accessible</b><div class=van_accessible class="Transportation"></div><br>
-        <b>parking_comments</b><div class=parking_comments class="Transportation"></div><br>
-
-    </div>
-    
-    <div class="filterDiv Ground">
-    <!--this may be referencing road to bathroom? check metadata?-->
-        <b>paved</b><div class=paved class="Ground"></div><br>
-        <b>gravel</b><div class=grael class="Ground"></div><br>
-        <b>potholes</b><div class=potholes class="Ground" ></div><br>
-        <b>unmangeable_slope</b><div class=unmangeable_slope class="Ground">
-            <b>concrete</b><div class=concrete class="Ground"></div><br>
-            <b>asphalt</b><div class=asphalt class="Ground"></div><br>
-            <b>wooden</b><div class=wooden class="Ground"></div><br>
-            <b>packed_stone</b><div class=packed_stone class="Ground"></div><br>
-            <b>hard_soil</b><div class=hard_soil class="Ground"></div><br>
-            <b>loose_dirt</b><div class=loose_dirt class="Ground"></div><br>
-            <b>loose_stone</b><div class=loose_stone class="Ground"></div><br>
-            <b>thick_grass</b><div class=thick_grass class="Ground"></div><br>
-            <b>mulch</b><div class=mulch class="Ground"></div><br>
-            <b>sand</b><div class=sand class="Ground"></div><br>
-            <b>muddy</b><div class=muddy class="Ground"></div><br>
-            <b>roots_rocks</b><div class=roots_rocks class="Ground"></div><br>
-            <b>ruts_potholes</b><div class=ruts_potholes class="Ground"></div><br>
-        </div><br>
-    </div>
-
-    <div class="filterDiv Bathrooms">
-        <b>are_there_bathrooms</b><div class=are_there_bathrooms class="Bathrooms"></div><br>
-        <b>only_visitors_center</b><div class=only_visitors_center class="Overview" class="Bathrooms" ></div><br>
-        <b>regular_portable</b><div class=regular_portable  class="Bathrooms" ></div><br>
-        <b>accessible_portable</b><div class=accessible_portable  class="Bathrooms" ></div><br>
-        <b>all_gender</b><div class=all_gender  class="Bathrooms" ></div><br>
-        <b>door_frames</b><div class=door_frames  class="Bathrooms" ></div><br>
-        <b>threshold</b><div class=threshold  class="Bathrooms" ></div><br>
-        <b>stall_size</b><div class=stall_size  class="Bathrooms" ></div><br>
-        <b>toilet</b><div class=toilet  class="Bathrooms" ></div><br>
-        <b>sink</b><div class=sink  class="Bathrooms" ></div><br>
-        <b>mirror</b><div class=mirror  class="Bathrooms" ></div><br>
-        <b>hand_dryers</b><div class=hand_dryers  class="Bathrooms" ></div><br>
-        <b>bathroom_comments</b><div class=bathroom_comments  class="Bathrooms" ></div><br>
-    </div>
+          <b>Is there a pull-off area for car birding?</b><div class=pull_off class="Transportation"></div><br>
+          <b>There are signed, regular-sized accessible parking spaces. (Parking space is a minimum of 96” (2.4m) wide, with no additional side space for a ramp.)</b><div class=regular_accessible class="Transportation"></div><br>
+          <b>There are van accessible parking spaces. (Parking space is 132” (3.3m) wide, with an additional 60” (1.5m) wide aisle/side space for a ramp.)</b><div class=van_accessible></div><br>
+          <b>parking_comments</b><div class=parking_comments class="Transportation"></div><br>
+          <b>Curb cuts are present to move from parking lot to trail or sidewalk</b><div class=curb_cuts></div><br>
+          <b>Parking is on an unmanageable slope</b><div class=unmangeable_slope></div><br>
+          <b>Parking surface is paved</b><div class=paved></div><br>
+          
+      <b>Parking surface is gravel</b><div class=grael></div><br>
+              
+      <b>Parking surface has many potholes/bumps</b><div class=potholes></div><br>
+      <b>1. c) Parking comments</b><div class=parking_comments></div><br>
   
-    <div class="filterDiv RampsandHandrails">
-        <b>are_there_ramps</b><div class=are_there_ramps class="RampsandHandrails"></div><br>
-        <b>handrails</b><div class=handrails class="RampsandHandrails"></div><br>
-        <b>wide_ramps</b><div class=wide_ramps class="RampsandHandrails"></div><br>
-        <b>perfect_ramp</b><div class=perfect_ramp class="RampsandHandrails"> </div><br>
-        <b>steeper_ramp</b><div class=steeper_ramp  class="RampsandHandrails"></div><br>
-        <b>very_steep_ramp</b><div class=very_steep_ramp  class="RampsandHandrails"></div><br>
-        <b>flat_landings</b><div class=flat_landings  class="RampsandHandrails"></div><br>
-        <b>ramp_comments</b><div class=ramp_comments  class="RampsandHandrails"></div><br>
-    </div>
-  <!--      <b>curb_cuts</b><div class=curb_cuts class="Wheelchair"></div><br>
+              </div>
+        <div class="filterDiv Bathrooms">
+        <b>3. a) Are there bathrooms?</b><div class=are_there_bathrooms></div><br>
+        <b>Bathroom access is only available when the visitor center is open</b><div class=only_visitors_center></div><br>       
+        <b>Portable restrooms are available but are not wheelchair accessible</b><div class=regular_portable></div><br>
     
+        <b>Wheelchair accessible portable restrooms are available</b><div class=accessible_portable></div><br>
+                
+        <b>There are all gender bathrooms, rather than ‘male’ and ‘female’ choices</b><div class=all_gender></div><br>
+                
+        <b>Door frames are at least 32" (81cm) across</b><div class=door_frames></div><br>
+                
+        <b>The threshold is not on a slant or in the middle of a doorway</b><div class=threshold></div><br>
+                
+        <b>The stall size is at minimum 60" x 60" (1.5m x 1.5m)</b><div class=stall_size></div><br>
+                
+        <b>Top of toilet seat is 17-19" (43-48cm) from the floor</b><div class=toilet></div><br>
+                
+        <b>The sink is 34” (86cm) maximum above the floor to allow a seated person to reach the faucets and soap</b><div class=sink></div><br>
+                
+        <b>Bottom edge of mirror is no higher than 40” (1m) from the floor</b><div class=mirror></div><br>
+                
+        <b>Hand dryers or towels are a maximum of 35” (89cm) above the floor</b><div class=hand_dryers></div><br>
+          
+  <b>3. c) Bathroom comments</b><div class=bathroom_comments></div><br>
+                </div>
+  
+        <div class="filterDiv Ground">
+        <!--this may be referencing road to bathroom? check metadata?-->
+        <b>Concrete</b><div class=concrete></div><br>
+        <b>Asphalt</b><div class=asphalt></div><br>           
+        <b>Wooden boardwalk</b><div class=wooden></div><br>    
+        <b>Well-packed crushed stone</b><div class=packed_stone></div><br>    
+        <b>Hard-packed soil</b><div class=hard_soil></div><br>     
+        <b>Loose dirt</b><div class=loose_dirt></div><br>     
+        <b>Loose crushed stone or gravel</b><div class=loose_stone></div><br>     
+        <b>Thick grass</b><div class=thick_grass></div><br>     
+        <b>Wood mulch/tanbark</b><div class=mulch></div><br>     
+        <b>Sand</b><div class=sand></div><br>     
+        <b>Muddy sections</b><div class=muddy></div><br>     
+        <b>Protruding roots and rocks</b><div class=roots_rocks></div><br>   
+        <b>Ruts and potholes</b><div class=ruts_potholes></div><br>   
+        <b>5. b) Trail surface comments</b><div class=trail_surface_comments></div><br>
+                </div>
+        <div class="filterDiv RampsandHandrails">
+          <b>4. a) Are there any ramps?</b><div class=are_there_ramps></div><br>    
+          <b>Handrails are present</b><div class=handrails></div><br>        
+          <b>Ramps are at least 36” (91cm) wide</b><div class=wide_ramps></div><br>
+          <b>Ramp slopes are perfect: for every 1 inch the ramp rises, it extends out 12 inches (no greater than 1:12 ratio, or no steeper than 8.33% gradient)</b><div class=perfect_ramp></div><br>       
+          <b>Ramps are steeper than 1:12, but not so steep it feels like an effort to use</b><div class=steeper_ramp></div><br>      
+          <b>Ramps are very steep</b><div class=very_steep_ramp></div><br>
+          <b>Flat landings between slopes or when ramps change direction are at least 60”x60” (1.5m x 1.5m)</b><div class=flat_landings></div><br>     
+          <b>4. c) Ramp comments</b><div class=ramp_comments></div><br>
+                </div>
+        <div class="filterDiv Width">
+          <b>Trail is at least 60” (1.5m) wide to allow two mobility devices to pass</b><div class=extra_wide_trail></div><br>      
+          <b>Trail is at least 36” (91cm) wide </b><div class=wide_trail></div><br>   
+          <b>Trail is relatively narrow (it would be somewhat difficult to pass others if using a mobility device)</b><div class=narrow_trail></div><br>  
+          <b>There are no trail pull-outs (passing spaces) along the trail</b><div class=no_pullouts></div><br>
+          <b>Trail pull-outs occur at least every 1/8 mile (200m) feet</b><div class=pullouts_1_8></div><br>
+          <b>Trail pull-outs are present, but less frequently</b><div class=pullouts></div><br>
+          <b>6. b) Trail width and pull-outs comments</b><div class=trail_width_comments></div><br>
+          
+        
+                </div>
 
-   
+        <div class="filterDiv Slope">
+                  <b>Trail is completely flat</b><div class=flat></div><br>
+                  <b>Trail slopes are no steeper than a ratio of 1:20 (5% gradient)</b><div class=steep_trail></div><br>
+                  <b>Trail slopes are relatively flat, but steeper than 1:20 (5% gradient)</b><div class=steeper_trail></div><br>
+                  <b>Trail slopes are very steep</b><div class=very_steep_trail></div><br>
+                  <b>7. b) Trail slope comments</b><div class=trail_slope_comments></div><br>
+                </div>
+                
+        <div class="filterDiv Steps">
+                  <b>Are any steps present?</b><div class=steps></div><br>   
+                <b></b>Steps comments</b><div class=steps_comments></div><br>
+                
+                
+                </div>
+         <div class="filterDiv Bench">
+                      <b>9. a) Are there any benches?</b><div class=are_there_benches></div><br>
+                            
+                    <b>Benches occur roughly every 1/8 mile (200m) feet</b><div class=benches_1_8></div><br>
+                            
+                    <b>Benches are present, but less frequently</b><div class=benches_less_frequent></div><br>
+                            
+                    <b>Benches have at least one armrest</b><div class=armrest></div><br>
+                            
+                    <b>Benches are connected to the trail by a paved surface</b><div class=bench_trail></div><br>
+                            
+                    <b>9. c) Bench comments</b><div class=bench_frequency_comments></div><br>
+                </div>
+                
+         <div class="filterDiv trailObstacles">
+                        <b>10. a) Are gates, bollards, or large obstacles present?</b><div class=are_there_gates></div><br>
+                              
+                        <b>Space between bollards/large obstacles, or between bollard and the edge of the trail, is at least 36”</b><div class=space_between_bollards></div><br>
+                                
+                        <b>Gates are at least 36” (91cm) wide</b><div class=wide_gates></div><br>
+                                
+                        <b>Gates are narrower than 36” (91cm) wide</b><div class=narrower_gates></div><br>
+                                
+                        <b>Swing or ‘kissing’ gate is present: gate opens towards or away from you, and you must hold it open to pass</b><div class=swing_gates></div><br>
+                                
+                        <b>Road closure gate is present (metal bar designed to prevent car access), with no alternative route around it</b><div class=road_closure_gates></div><br>
+                                
+                        <b>Road closure gate is present, but a path at least 36” (91cm) wide around the side allows access</b><div class=road_closure_gates_no_path></div><br>
+                                
+                        <b>10. c) Gates, bollards, and obstacles comments</b><div class=gates_comments></div><br>
+                  </div>
+                
+          <div class="filterDiv boardwalk-railings">
+                          <b>11. a) Are there railings or safety barriers (as on a boardwalk)?</b><div class=are_there_railings></div><br>
+                                
+                        <b>Small lip (approximately 1-2” or 2.5-5cm high) on edge of boardwalk is present, to keep visitors with mobility devices from falling off the edge</b><div class=small_lip></div><br>
+                                
+                        <b>Top railings are not thick/deep, and are placed to optimize, not obstruct, a seated person's line of sight (which is, on average, 35-45” or 88-114cm from the ground)</b><div class=accessible_top_railing></div><br>
+                                
+                        <b>Top railing is thick and hard to see beyond while seated</b><div class=inaccessible_top_railing></div><br>
+                                
+                        <b>11. c) Railing comments</b><div class=railing_comments></div><br>
+                </div>
+                
+          <div class="filterDiv VisionAccessibility">
+                        
+                        <b>Audio recordings of interpretive sign content</b><div class=audio></div><br>
+                              
+                        <b>Tactile components of signs</b><div class=tactile_signs></div><br>
+                                
+                        <b>Braille on signs</b><div class=braille></div><br>
+                                
+                        <b>Tactile markers on the trail's surface (helpful for long cane users)</b><div class=tactile_markers></div><br>
+                                
+                        <b>Additional resources available to loan (eg. large print or braille information booklets, audio guide)</b><div class=additional_resources></div><br>
+                                
+                        <b>12. c) Features for visitors who are blind or have low vision comments</b><div class=features_for_visitors_comments></div><br>
+                        
+                </div>
+                
+          <div class="filterDiv shade">
+                  <b>Trail is completely shaded</b><div class=completely_shaded></div><br>
+                        
+                  <b>Trail is somewhat shaded</b><div class=somewhat_shaded></div><br>
+                          
+                  <b>Trail is not shaded at all</b><div class=not_shaded></div><br>
+                          
+                  <b>Some sections of the trail are shaded, some sections are not</b><div class=parts_shaded></div><br>
+                          
+                  <b>13. b) Shade comments</b><div class=trail_shade_comments></div><br>
+                </div>
+                
+                
+        <div class="filterDiv trailUseDensity">
+                  <b>Very busy; difficult to find a parking space or to pass by other trail users</b><div class=very_busy></div><br>
+                        
+                  <b>Somewhat busy; still easy to navigate the trail with the other visitors</b><div class=somewhat_busy></div><br>
+                          
+                  <b>Not busy</b><div class=not_busy></div><br>
+                          
+                  <b>14. b) Trail use and popularity comments</b><div class=trail_use_comments></div><br>
+                  <b>Mountain bikes</b><div class=mountain_bikes></div><br>
+                        
+                <b>Cyclists (especially on bike paths)</b><div class=cyclists></div><br>
+                        
+                <b>Horses</b><div class=horses></div><br>
+                        
+                <b>Motor vehicles, including golf carts</b><div class=motor_vehicles></div><br>
+                        
+                <b>In-line skiers</b><div class=skiers></div><br>
+                        
+                <b>15. b) Other user comments</b><div class=other_user_comments></div><br>
+                
+                </div>
+                
+        <div class="filterDiv resources">
+                        <b>Visitors center or nature center</b><div class=visitors_center></div><br>
+                              
+                        <b>Staff or volunteers to assist with questions</b><div class=staff></div><br>
+                                
+                        <b>Interpretive programs </b><div class=interpretive_programs></div><br>
+                                
+                        <b>Accessible tram or motorized tour </b><div class=tram></div><br>
+                                
+                        <b>Meals are available to purchase </b><div class=meals></div><br>
+                                
+                        <b>Water fountains are available outside buildings</b><div class=water_fountains></div><br>
+                                
+                        <b>Accessible water fountains (no higher than 36” or 91cm from the floor) are available outside buildings</b><div class=accessible_water_fountains></div><br>
+                                
+                        <b>Gated areas (eg drive up bird blinds) accessible to people with disabilities if arranged ahead of time</b><div class=gated_areas></div><br>
+                                
+                        <b>2. b) Additional services comments</b><div class=additional_services_comments></div><br>
+                  
+                </div>
+                
+        <div class="filterDiv birdblind">
+                          <b>16. a) Are bird blinds or bird hides present?</b><div class=are_there_bird_blinds></div><br>
+                                
+                          <b>There is no door or entryway</b><div class=no_doorway></div><br>
+                                  
+                          <b>Doorway is at the top of a ramp or on a cross slope</b><div class=doorway_at_top></div><br>
+                                  
+                          <b>Door can be opened and held open easily with one hand while passing through</b><div class=door_can_open></div><br>
+                                  
+                          <b>There is no lip at the threshold of the doorway</b><div class=no_lip></div><br>
+                                  
+                          <b>Doorway is at least 32” (81cm) wide</b><div class=wide_door></div><br>
+                                  
+                          <b>There is enough space inside for wheelchairs to maneuver easily</b><div class=enough_space></div><br>
+                                  
+                          <b>Viewing windows are low enough for a seated person to see through (bottom edge is 30-40” or 76cm-1m from the floor)</b><div class=viewing_windows></div><br>
+                                  
+                          <b>Shelves or ledges in front of windows are no deeper than 6” (15cm), which would prevent wheelchair users from getting close enough to see birds near the blind on the ground</b><div class=shallow_shelves></div><br>
+                                  
+                          <b>Interior benches are movable</b><div class=interior_benches></div><br>
+                                  
+                          <b>Roof or other structure provides shade for people in the bird blind</b><div class=roof></div><br>
+                                  
+                          <b>16. c) Bird blind comments</b><div class=bird_blind_comments></div><br>
+                </div>
+                
+        <div class="filterDiv noise">
+                        <b>Intermittent nearby construction noise</b><div class=construction></div><br>
+                              
+                        <b>Ongoing industrial noise</b><div class=industrial></div><br>
+                                
+                        <b>Nearby traffic noise</b><div class=traffic></div><br>
+                                
+                        <b>Near an airport or close to a heavily trafficked flight path</b><div class=airport></div><br>
+                                
+                        <b>Loud boats nearby</b><div class=boats></div><br>
+                                
+                        <b>Dirt bikes used nearby</b><div class=dirt_bikes></div><br>
+                                
+                        <b>Large groups of people often use this location for social gatherings</b><div class=large_groups></div><br>
+                                
+                        <b>18. b) Nearby noise comments</b><div class=noise_level_comments></div><br>
+                  </div>
+                
+        <div class="filterDiv vegetationMaintenance">
+                  <b>Trail or ramps are plowed frequently in winter (if relevant)</b><div class=plowed></div><br>
+                        
+                  <b>Leaves are removed frequently from the trail in fall/winter (if relevant)</b><div class=leaves_removed></div><br>
+                          
+                  <b>Vegetation next to the trail is pruned so it does not encroach over the trail</b><div class=pruned_vegetation></div><br>
+                          
+                  <b>There are significant cracks, potholes, or loose, damaged or uneven boards in the trail’s surface</b><div class=damage></div><br>
+                          
+                  <b>18. b) Maintenance comments</b><div class=maintenance_comments></div><br>
+                </div>
+                
+        <div class="filterDiv Safety">
+                            <b>Location is well used; plenty of other people were around and it didn't feel deserted</b><div class=well_used></div><br>
+                                  
+                          <b>Location is not well-used; you/your group were the only users, or one of very few other users</b><div class=not_well_used></div><br>
+                                  
+                          <b>Location borders a private property with 'keep out' or 'no trespassing' signs visible at the parking area or along the trail</b><div class=borders_private></div><br>
+                                  
+                          <b>The parking area is well lit at night</b><div class=well_lit_parking></div><br>
+                                  
+                          <b>The trail is well lit at night</b><div class=well_lit_trail></div><br>
+                                  
+                          <b>Dogs are often off leash</b><div class=dogs_off_leash></div><br>
+                                  
+                          <b>Bears or mountain lions are frequently reported at this location</b><div class=bears></div><br>
+                                  
+                          <b>Noticeable presence of police, Border Patrol or other authorities</b><div class=police></div><br>
+                                  
+                          <b>Site is used as an isolated party spot, or for large, loud gatherings</b><div class=party_spot></div><br>
+                                  
+                          <b>Site is used for hunting, for at least some part of the year</b><div class=hunting></div><br>
+                                  
+                          <b>Presence of hate symbols, including racist or homophobic graffiti, Confederate flag</b><div class=hate_symbols></div><br>
+                                  
+                          <b>Evidence of recreational drug or alcohol use, eg. syringes, drug paraphernalia</b><div class=drugs></div><br>
+                                  
+                          <b>19. b) Safety comments</b><div class=safety_comments></div><br>
+                                  
+                          <b>1. Please provide any additional information that may be helpful to a visitor with an accessibility challenge that was not already covered</b><div class=final_comments></div><br>
+                                  
+                          <b>2. Please rate this location's overall accessibility</b><div class=rating></div><br>
+                                  
+                          <b>3. b) Photo permissions</b><div class=photos_permissions></div><br>
+                                  
+                          <b>3. c) Alternative text for photos</b><div class=alternative_text></div><br>
+                                  
+                          <b>Guide ropes along the side of the trail for self-guiding</b><div class=guide_ropes></div><br>
+                                  
+                          <b>All grassy trail surfaces are mown frequently (if relevant)</b><div class=mown_frequently></div><br>
+                                  
+                          <b>Tree branches do not encroach over the surface of the trail below the height of 7’ (2.1m)</b><div class=tree_branches></div><br>
+                                  
+                          <b>Ticks or chiggers are a concern</b><div class=ticks></div><br>
+                                  
+                          <b>Event code</b><div class=event_code></div><br>
+                                  
+                          <b>Adaptive equipment is available for loan (eg. beach wheelchairs)</b><div class=field_80_0></div><br>
+                                  
+                          <b>10. b) Please add more information about walking or biking access.</b><div class=walking_biking_comments></div><br>
+                                  
+                          <b>12. a) Are there features for visitors who are blind or have low vision?</b><div class=blind_low_vision_features></div><br>
+                
+                </div>
+                
 
-      <b>trail_surface_comments</b><div class=trail_surface_comments class="Ground"></div><br>
-      <b>extra_wide_trail</b><div class=extra_wide_trail class="Width"></div><br>
-      <b>wide_trail</b><div class=wide_trail class="Width"></div><br>
-      <b>narrow_trail</b><div class=narrow_trail class="Width"></div><br>
-      <b>no_pullouts</b><div class=no_pullouts class="Width"></div><br>
-      <b>pullouts_1_8</b><div class=pullouts_1_8 class="Width"></div><br>
-      <b>pullouts</b><div class=pullouts class="Width"></div><br>
-      <b>trail_width_comments</b><div class=trail_width_comments class="Width"></div><br>
-      <b>flat</b><div class=flat class="slope"></div><br>
-      <b>steep_trail</b><div class=steep_trail class="slope"></div><br>
-      <b>steeper_trail</b><div class=steeper_trail  class="slope"></div><br>
-      <b>very_steep_trail</b><div class=very_steep_trail  class="slope"></div><br>
-      <b>trail_slope_comments</b><div class=trail_slope_comments  class="slope"></div><br>
-      <b>steps</b><div class=steps></div><br>
-      <b>steps_comments</b><div class=steps_comments></div><br>
-      <b>are_there_benches</b><div class=are_there_benches></div><br>
-      <b>benches_1_8</b><div class=benches_1_8></div><br>
-      <b>benches_less_frequent</b><div class=benches_less_frequent></div><br>
-      <b>armrest</b><div class=armrest></div><br>
-      <b>bench_trail</b><div class=bench_trail></div><br>
-      <b>bench_frequency_comments</b><div class=bench_frequency_comments></div><br>
-      <b>are_there_gates</b><div class=are_there_gates></div><br>
-      <b>space_between_bollards</b><div class=space_between_bollards></div><br>
-      <b>wide_gates</b><div class=wide_gates></div><br>
-      <b>narrower_gates</b><div class=narrower_gates></div><br>
-      <b>swing_gates</b><div class=swing_gates></div><br>
-      <b>road_closure_gates</b><div class=road_closure_gates></div><br>
-      <b>road_closure_gates_no_path</b><div class=road_closure_gates_no_path></div><br>
-      <b>gates_comments</b><div class=gates_comments></div><br>
-      <b>are_there_railings</b><div class=are_there_railings></div><br>
-      <b>small_lip</b><div class=small_lip></div><br>
-      <b>accessible_top_railing</b><div class=accessible_top_railing></div><br>
-      <b>inaccessible_top_railing</b><div class=inaccessible_top_railing></div><br>
-      <b>railing_comments</b><div class=railing_comments></div><br>
-      <b>audio</b><div class=audio></div><br>
-      <b>tactile_signs</b><div class=tactile_signs></div><br>
-      <b>braille</b><div class=braille></div><br>
-      <b>tactile_markers</b><div class=tactile_markers></div><br>
-      <b>additional_resources</b><div class=additional_resources></div><br>
-      <b>features_for_visitors_comments</b><div class=features_for_visitors_comments></div><br>
-      <b>completely_shaded</b><div class=completely_shaded></div><br>
-      <b>somewhat_shaded</b><div class=somewhat_shaded></div><br>
-      <b>not_shaded</b><div class=not_shaded></div><br>
-      <b>parts_shaded</b><div class=parts_shaded></div><br>
-      <b>trail_shade_comments</b><div class=trail_shade_comments></div><br>
-      <b>very_busy</b><div class=very_busy></div><br>
-      <b>somewhat_busy</b><div class=somewhat_busy></div><br>
-      <b>not_busy</b><div class=not_busy></div><br>
-      <b>trail_use_comments</b><div class=trail_use_comments></div><br>
-      <b>mountain_bikes</b><div class=mountain_bikes></div><br>
-      <b>cyclists</b><div class=cyclists></div><br>
-      <b>horses</b><div class=horses></div><br>
-      <b>motor_vehicles</b><div class=motor_vehicles></div><br>
-      <b>skiers</b><div class=skiers></div><br>
-      <b>other_user_comments</b><div class=other_user_comments></div><br>
-      <b>visitors_center</b><div class=visitors_center></div><br>
-      <b>staff</b><div class=staff></div><br>
-      <b>interpretive_programs</b><div class=interpretive_programs></div><br>
-      <b>tram</b><div class=tram></div><br>
-      <b>meals</b><div class=meals></div><br>
-      <b>water_fountains</b><div class=water_fountains></div><br>
-      <b>accessible_water_fountains</b><div class=accessible_water_fountains></div><br>
-      <b>gated_areas</b><div class=gated_areas></div><br>
-      <b>additional_services_comments</b><div class=additional_services_comments></div><br>
-      <b>are_there_bird_blinds</b><div class=are_there_bird_blinds></div><br>
-      <b>no_doorway</b><div class=no_doorway></div><br>
-      <b>doorway_at_top</b><div class=doorway_at_top></div><br>
-      <b>door_can_open</b><div class=door_can_open></div><br>
-      <b>no_lip</b><div class=no_lip></div><br>
-      <b>wide_door</b><div class=wide_door></div><br>
-      <b>enough_space</b><div class=enough_space></div><br>
-      <b>viewing_windows</b><div class=viewing_windows></div><br>
-      <b>shallow_shelves</b><div class=shallow_shelves></div><br>
-      <b>interior_benches</b><div class=interior_benches></div><br>
-      <b>roof</b><div class=roof></div><br>
-      <b>bird_blind_comments</b><div class=bird_blind_comments></div><br>
-      <b>construction</b><div class=construction></div><br>
-      <b>industrial</b><div class=industrial></div><br>
-      <b>traffic</b><div class=traffic></div><br>
-      <b>airport</b><div class=airport></div><br>
-      <b>boats</b><div class=boats></div><br>
-      <b>dirt_bikes</b><div class=dirt_bikes></div><br>
-      <b>large_groups</b><div class=large_groups></div><br>
-      <b>noise_level_comments</b><div class=noise_level_comments></div><br>
-      <b>plowed</b><div class=plowed></div><br>
-      <b>leaves_removed</b><div class=leaves_removed></div><br>
-      <b>pruned_vegetation</b><div class=pruned_vegetation></div><br>
-      <b>damage</b><div class=damage></div><br>
-      <b>maintenance_comments</b><div class=maintenance_comments></div><br>
-      <b>well_used</b><div class=well_used></div><br>
-      <b>not_well_used</b><div class=not_well_used></div><br>
-      <b>borders_private</b><div class=borders_private></div><br>
-      <b>well_lit_parking</b><div class=well_lit_parking></div><br>
-      <b>well_lit_trail</b><div class=well_lit_trail></div><br>
-      <b>dogs_off_leash</b><div class=dogs_off_leash></div><br>
-      <b>bears</b><div class=bears></div><br>
-      <b>police</b><div class=police></div><br>
-      <b>party_spot</b><div class=party_spot></div><br>
-      <b>hunting</b><div class=hunting></div><br>
-      <b>hate_symbols</b><div class=hate_symbols></div><br>
-      <b>drugs</b><div class=drugs></div><br>
-      <b>safety_comments</b><div class=safety_comments></div><br>
-      <b>final_comments</b><div class=final_comments></div><br>
-      <b>rating</b><div class=rating></div><br>
-      <b>photos_permissions</b><div class=photos_permissions></div><br>
-      <b>alternative_text</b><div class=alternative_text></div><br>
-      <b>guide_ropes</b><div class=guide_ropes></div><br>
-      <b>mown_frequently</b><div class=mown_frequently></div><br>
-      <b>tree_branches</b><div class=tree_branches></div><br>
-      <b>ticks</b><div class=ticks></div><br>
-      <b>event_code</b><div class=event_code></div><br>
-      <b>field_80_0</b><div class=field_80_0></div><br>
-      <b>walking_biking_comments</b><div class=walking_biking_comments></div><br>
-      <b>blind_low_vision_features</b><div class=blind_low_vision_features></div><br>
-      <b>review</b><div class=review></div><br>
-      <b>state</b><div class=state></div><br>
-      <b>country</b><div class=country></div><br>
-      <b>units_mi</b><div class=units_mi></div><br>
-      <b>units_km</b><div class=units_km></div><br>
- -->
-    </div>
-
+  </div>
+</body>
     
 
     <div id="map"></div>
