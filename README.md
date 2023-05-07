@@ -10,3 +10,4 @@ Goals:
 4. Add map directions? 
 5. Add photos (there are photos in the Esri map, but not in the json available at arcgis.com)
 6. Add attributions 
+7. Clean up the data in the sidebar (make special characters visible, make sure all questions are formatted clearly)
